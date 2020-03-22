@@ -6,8 +6,8 @@ import SEO from '../components/seo'
 
 const SecondPage = () => (
   <Layout>
-    <SEO title="Payment Success" />
-    <h1>Sucess!</h1>
+    <SEO title="Zahlung erfolgreich." />
+    <h1>Zahlung erfolgreich!</h1>
     <Link to="/">Shop again</Link>
   </Layout>
 )
