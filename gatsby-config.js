@@ -4,9 +4,9 @@ require('dotenv').config({
 
 module.exports = {
   siteMetadata: {
-    title: `Gatsby E-Commerce Starter`,
+    title: `Psyberatung Bezahlservice`,
     description: `Accept payments in your Gatsby site using Stripe Checkout.`,
-    author: `@thorwebdev`,
+    author: `@pitufocabeza1`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -41,6 +41,6 @@ module.exports = {
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.app/offline
-    // 'gatsby-plugin-offline',
+    'gatsby-plugin-offline',
   ],
 }
