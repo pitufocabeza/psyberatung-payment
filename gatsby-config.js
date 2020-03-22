@@ -4,7 +4,7 @@ require('dotenv').config({
 
 module.exports = {
   siteMetadata: {
-    title: `Psyberatung Bezahlservice`,
+    title: `Psychologische Onlineberatung`,
     description: `Accept payments in your Gatsby site using Stripe Checkout.`,
     author: `@pitufocabeza1`,
   },

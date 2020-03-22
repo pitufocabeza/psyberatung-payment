@@ -33,8 +33,7 @@ const Layout = ({ children }) => (
           {children}
           <footer>
             <div>
-              © 2019, Built by <a href="https://twitter.com/thorwebdev">Thor</a>{' '}
-              with <a href="https://www.gatsbyjs.org">Gatsby</a>
+             <a href="https://psyberatung.com">Home</a>{' '}
             </div>
             <div>
               <a href="https://stripe.com">

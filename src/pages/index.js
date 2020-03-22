@@ -7,23 +7,12 @@ import SEO from '../components/seo'
 
 import Checkout from '../components/checkout'
 
+import Skus from '../components/Products/Skus'
+
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby e-commerce site.</p>
-    <p>
-      Follow{' '}
-      <a href="https://www.gatsbyjs.org/tutorial/ecommerce-tutorial/">
-        this tutorial
-      </a>{' '}
-      to build your own.
-    </p>
-    <Checkout />
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
-    </div>
-    <Link to="/advanced/">Go to the advanced example</Link>
+    <SEO title="Psychologische Beratung" keywords={[`gatsby`, `application`, `react`]} />
+      <Skus />
   </Layout>
 )
 

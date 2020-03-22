@@ -19,7 +19,7 @@ const buttonStyles = {
   outline: 'none',
   padding: '12px',
   boxShadow: '2px 5px 10px rgba(0,0,0,.1)',
-  backgroundColor: 'rgb(255, 178, 56)',
+  backgroundColor: 'rgb(100,149,237)',
   borderRadius: '6px',
   letterSpacing: '1.5px',
 }
@@ -52,12 +52,12 @@ const SkuCard = ({ sku, stripePromise }) => {
   return (
     <div style={cardStyles}>
       <h4>{sku.attributes.name}</h4>
-      <p>Price: {formatPrice(sku.price, sku.currency)}</p>
+      <p>Preis: {formatPrice(sku.price, sku.currency)}</p>
       <button
         style={buttonStyles}
         onClick={event => redirectToCheckout(event, sku.id)}
       >
-        BUY ME
+        Kaufen
       </button>
     </div>
   )
